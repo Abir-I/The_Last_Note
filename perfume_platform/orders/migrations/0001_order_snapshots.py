@@ -5,7 +5,7 @@ import django.utils.timezone
 
 class Migration(migrations.Migration):
     initial = True
-    dependencies = [('accounts', '0002_schema_defaults')]
+    dependencies = [('accounts', '0003_expand_perfume_text_fields')]
 
     operations = [
         migrations.CreateModel(
